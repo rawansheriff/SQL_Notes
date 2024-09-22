@@ -56,8 +56,7 @@ ON EmployeeDemographics.EmployeeID = EmployeeSalary.EmployeeID
 WHERE FirstName <> 'Michael'
 ORDER BY Salary DESC
 
--- ANSWER IS: DWIGHT SCHRUTE WILL GET A DEDCUTION 
-
+  
 -- Another use case -- AVG salesman salary 
 
 SELECT JobTitle, AVG(Salary) AS avg_sal
